@@ -1,4 +1,49 @@
 :root{
     --fontTitle:'Libre Baskerville', serif;
-    --fontText: 'Montserrat', sans-serif;;
+    --fontText: 'Montserrat', sans-serif;
+
+    --colorPrimary: #f1f1f1;
+    --colorDark: #000;
+    --colorWarning:#f7df57;
+    --colorBorder:#afa26f;
 }
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fontText);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* My settings of bootstrap */
+.bg-secondary{
+    background-color: var(--colorPrimary) !important;
+}
+
+.ocult{
+    display: none;
+}    
+
+.btn-warning{
+    background: var(--colorWarning);
+    border-radius: 20rem !important;
+    border: 0.2rem solid var(--colorBorder);
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1000px) {
+    .ocult{
+        display: block;
+    }    
+}
+    
