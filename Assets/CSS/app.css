@@ -5,7 +5,7 @@
     --colorPrimary: #f1f1f1;
     --colorDark: #000;
     --colorWarning:#f7df57;
-    --colorBorder:#afa26f;
+    --colorFocus:#e7d258;
 }
 
 html{
@@ -37,11 +37,27 @@ body{
 .btn-warning{
     background: var(--colorWarning);
     border-radius: 20rem !important;
-    border: 0.2rem solid var(--colorBorder);
-    font-size: 1.5rem;
+    border: 0.1rem solid var(--colorDark);
+    width: 15rem;
+    font-size: 1.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
-@media (min-width: 1000px) {
+.btn-warning:hover{
+    background: var(--colorFocus);
+    border: 0.1rem solid var(--colorDark);
+}
+
+.ocult{
+    display: none;
+}
+
+.gap{
+    column-gap: 3rem;
+}
+
+@media (min-width: 992px) {
     .ocult{
         display: block;
     }    
