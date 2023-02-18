@@ -6,60 +6,36 @@
     --colorDark: #000;
     --colorWarning:#f7df57;
     --colorFocus:#e7d258;
+    --colorGray:#afafaf;
 }
 
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body{
     font-family: var(--fontText);
-    font-size: 1.5rem;
-    box-sizing: border-box;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
-/* My settings of bootstrap */
-.bg-secondary{
-    background-color: var(--colorPrimary) !important;
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
 }
 
-.ocult{
-    display: none;
-}    
+h1{
+    font-size: 3.8rem;
+}
 
-.btn-warning{
-    background: var(--colorWarning);
-    border-radius: 20rem !important;
-    border: 0.1rem solid var(--colorDark);
-    width: 15rem;
-    font-size: 1.9rem;
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+a{
+    font-size: 2rem;
     font-weight: 500;
-    transition: all 0.3s ease;
 }
-
-.btn-warning:hover{
-    background: var(--colorFocus);
-    border: 0.1rem solid var(--colorDark);
-}
-
-.ocult{
-    display: none;
-}
-
-.gap{
-    column-gap: 3rem;
-}
-
-@media (min-width: 992px) {
-    .ocult{
-        display: block;
-    }    
-}
-    
