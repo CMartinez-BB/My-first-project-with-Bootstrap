@@ -65,6 +65,11 @@
         height: 37rem;
     }
     
+    .img-md{
+        margin-top: 10rem;
+        display: block;
+    }
+
     .content__info{
         text-align: inherit;
     }
@@ -179,6 +184,10 @@
         text-align: inherit;
     }
 
+    .line-h{
+        line-height: 0.8;
+    }
+
     .img{
         margin-top: 10rem;
         display: block;
@@ -228,7 +237,6 @@
     }
 
     .about{
-        height: 80rem;
         margin-top: 10rem;
     }
 }
