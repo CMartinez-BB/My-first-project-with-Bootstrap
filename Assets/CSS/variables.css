@@ -20,3 +20,7 @@
 .bg-primary{
     background-color: var(--colorDark) !important;
 }
+
+.mt-9{
+    margin-top: 50rem !important;
+}
