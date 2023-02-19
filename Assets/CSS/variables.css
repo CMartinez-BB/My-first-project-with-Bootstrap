@@ -12,3 +12,7 @@
 .btn-warning{
     background-color: var(--colorWarning);
 }
+
+.border-bottom{
+    border-bottom: 0.2rem solid var(--colorGray) !important;
+}
