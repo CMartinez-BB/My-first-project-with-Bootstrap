@@ -16,3 +16,7 @@
 .border-bottom{
     border-bottom: 0.2rem solid var(--colorGray) !important;
 }
+
+.bg-primary{
+    background-color: var(--colorDark) !important;
+}
