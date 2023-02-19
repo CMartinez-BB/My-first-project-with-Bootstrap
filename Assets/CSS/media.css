@@ -1,0 +1,77 @@
+@import './app.css';
+
+@media (min-width: 375px) {
+    
+    .text__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .text__information{
+        text-align: center;
+        line-height: 2;
+    }
+
+    .image{
+        height: 27rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .text__title{
+        font-size: 4rem;
+        margin-top: 5rem;
+        text-align: inherit;
+    }
+    
+    .text__sub{
+        color: var(--colorGray);
+        font-size: 5rem;
+    }
+    
+    .text__information{
+        font-size: 1.5rem;
+        line-height: 1;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        text-align: inherit;
+    }
+
+    .image{
+        height: 37rem;
+    }
+ 
+
+    .r{
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .text__title{
+        font-size: 9rem;
+        margin-top: 10rem;
+    }
+    
+    .text__sub{
+        color: var(--colorGray);
+        font-size: 7rem;
+        margin-top: 5rem;
+    }
+    
+    .text__information{
+        margin-top: 7rem;
+        margin-left: 5rem;
+        line-height: 1.5;
+        font-size: 2rem;
+    }
+
+    .image{
+        height: 65rem;
+        margin-top: 2rem;
+    }
+
+    .l{
+        margin-left: 5rem;
+    }
+}

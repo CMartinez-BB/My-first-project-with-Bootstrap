@@ -9,6 +9,6 @@
     font-size: 3rem;
 }
 
-.button{
+.btn-warning{
     background-color: var(--colorWarning);
 }
